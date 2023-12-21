@@ -49,6 +49,11 @@ module.exports = {
           children: [
             '',
             'mastodon',
+            'pixelfed',
+            'peertube',
+            'forgejo',
+            'misskey',
+            'matrix'
           ]
         }
       ],
