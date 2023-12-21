@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "Документації до всіх сервісів UA Fediland",
+  "main": "index.js",
+  "authors": {
+    "name": "Shizanit",
+    "email": "support@ua-fediland.de"
+  },
+  "repository": "https://github.com/UA-Fediland/Docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "docs:build": "vuepress build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
