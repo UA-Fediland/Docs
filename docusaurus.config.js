@@ -10,18 +10,18 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Documentation",
   tagline: "Efficient documentation solutions for everyone.",
-  favicon: "img/favicon.png",
+  favicon: "img/favicon.webp",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://docs.fediland.in.ua",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "your-organisation", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "UA Fediland", // Usually your GitHub org/user name.
+  projectName: "UA Fediland", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "uk",
+    locales: ["uk"],
   },
 
   presets: [
@@ -42,10 +42,6 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.js",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/dhub-dev/template-docusaurus-blog/tree/main",
         },
         blog: false,
         theme: {
@@ -59,70 +55,28 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/favicon.webp",
       navbar: {
-        title: "Universal Docs",
-        items: [
-          {
-            "aria-label": "GitHub Repository",
-            className: "navbar--github-link",
-            href: "https://github.com/dhub-dev/template-docusaurus-docs",
-            position: "right",
-          },
-        ],
+        title: "Docs",
       },
       footer: {
         style: "light",
         links: [
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/dhub",
-              },
-              {
-                label: "Discord",
-                href: "https://discord.com/invite/6qGnyrt7xy",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/withdhub",
-              },
-            ],
-          },
-          {
-            title: "Docusaurus",
-            items: [
+            
               {
                 label: "Home",
-                href: "https://docusaurus.io",
+                href: "https://fediland.in.ua",
               },
               {
-                label: "Documentation",
-                href: "https://docusaurus.io/docs/blog",
+                label: "Contacts",
+                href: "https://fediland.in.ua/contacts",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Donate",
+                href: "https://send.monobank.ua/jar/AQiVab8fC",
               },
-            ],
-          },
-          {
-            title: "Dhub",
-            items: [
-              {
-                label: "Home",
-                href: "https://dhub.dev",
-              },
-              {
-                label: "Get in touch",
-                href: "mailto:hello@dhub.dev",
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Blog Website, Inc. Built with Docusaurus, edited with Dhub`,
+        copyright: `Made by UA Fediland with ❤️`,
       },
       prism: {
         theme: prismThemes.github,
