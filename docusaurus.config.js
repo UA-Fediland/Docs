@@ -57,7 +57,7 @@ const config = {
       // Replace with your project's social card
       image: "img/favicon.webp",
       navbar: {
-        title: "Docs",
+        title: "Docs UA Fediland",
       },
       footer: {
         style: "light",
