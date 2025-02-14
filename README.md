@@ -1,16 +1,21 @@
-# Docusaurus documentation template
+# Docs UA Fediland
 
-This project is a Docusaurus documentation template used on Dhub, a WYSIWYG mdx editor available at [dhub.dev](https://dhub.dev).
+Цей проект написаний за допомогою Docusaurus
 
-### Preview
+### Запуск локально
 
-You can preview this template on the web [here](https://template-docusaurus-docs.dhub.dev).
+Щоб запустити цей проект на вашому комп'ютері, виконайте такі дії:
 
-### Run locally
-
-To start this project on your machine run the following:
-
+#### NPM
 ```
    npm install
    npm start
 ```
+
+#### Yarn
+```
+yarn install
+yarn run start
+```
+
+*Також зручно використовувати [Dhub](https://dhub.dev) для редагування з UI.

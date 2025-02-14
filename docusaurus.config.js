@@ -58,6 +58,15 @@ const config = {
       image: "img/favicon.webp",
       navbar: {
         title: "Docs UA Fediland",
+        items: [
+          { to: "/", label: "Головна", position: "left" },
+          {
+            "aria-label": "GitHub Repository",
+            className: "navbar--github-link",
+            href: "https://github.com/UA-Fediland",
+            position: "right",
+          },
+        ],
       },
       footer: {
         style: "light",
