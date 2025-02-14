@@ -59,6 +59,7 @@ const config = {
       navbar: {
         title: "Docs UA Fediland",
         items: [
+          { to: "/", label: "Home", position: "left" },
           {
             "aria-label": "GitHub Repository",
             className: "navbar--github-link",
