@@ -1,0 +1,29 @@
+name: Deploy Preview to GitHub Pages
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build Docusaurus
+        run: yarn build
+
+      - name: Move build to PR-specific folder
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          mv build "preview-$PR_NUMBER"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          destination_dir: preview-${{ github.event.pull_request.number }}
