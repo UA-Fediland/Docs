@@ -12,7 +12,7 @@
    npm start
 ```
 
-###Yarn
+### Yarn
 ```
 yarn install
 yarn run start
