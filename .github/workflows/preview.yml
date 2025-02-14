@@ -27,3 +27,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
           destination_dir: preview-${{ github.event.pull_request.number }}
+      - name: Comment PR with Preview Link
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: "🚀 Попередній перегляд доступний за посиланням: [Відкрити].(https://yourusername.github.io/yourrepo/preview-${{ github.event.pull_request.number }}/)"
