@@ -17,5 +17,3 @@
 yarn install
 yarn run start
 ```
-
-*Також зручно використовувати [Dhub](https://dhub.dev) для редагування з UI.
