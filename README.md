@@ -6,13 +6,13 @@
 
 Щоб запустити цей проект на вашому комп'ютері, виконайте такі дії:
 
-### NPM
+#### NPM
 ```
    npm install
    npm start
 ```
 
-### Yarn
+#### Yarn
 ```
 yarn install
 yarn run start
