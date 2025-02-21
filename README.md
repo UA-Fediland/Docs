@@ -1,6 +1,6 @@
 # Docs UA Fediland
 
-Цей проект написаний за допомогою Docusaurus
+Цей проект написаний за допомогою [Docusaurus](https://docusaurus.io/)
 
 ### Запуск локально
 
